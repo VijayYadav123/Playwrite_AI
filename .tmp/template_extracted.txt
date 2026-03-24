@@ -1,0 +1,348 @@
+\n--- Page 1 ---\nCreated by Pramod Dutta -
+TheTestingAcademy.com
+Test Plan (VWO.com)
+Test Plan 1
+Objective 2
+Scope 2
+Inclusions y4
+Test Environments 6
+m
+Defect Reporting Procedure 7
+Test Strategy 8
+Test Schedule e 9
+Test Deliverables. 10
+d
+Entry and Exit Criteria 10
+Entry Criteria: a 10
+Exit Criteria: 11
+c
+Test Execution 11
+Entry Criteria: A 11
+Exit Criteria: 11
+Test Closure g 11
+Entry Criteria: 11
+n
+Exit Criteria: 11
+Tools i 11
+t
+Risks and Mitigations 11
+s
+Approvals 12
+e
+T
+e
+h
+T\n--- Page 2 ---\nObjective
+In this document of the Test Plan for the VWO application, A/B test anything & measure its
+impact everywhere
+Import and aggregate all metrics you care about and measure how they get impacted by
+your experiments. y
+m
+Track both leading and lagging indicators for your experiment's impact
+Keep an eye on guardrail metrics to stop bad experiments early on
+e
+d
+● React 18.2.0
+a
+● jQuery 2.1.1
+● JavaScript
+c
+● Database Postgres SQL
+● Web Server (Apache suggested) A
+● Nginx
+g
+n
+i
+t
+s
+Scope
+e
+T
+The features and functionality of VWO.com that will be tested, such as the user interface,
+checkout process, search functionality, and mobile compatibility.
+e
+h
+The types of testing that will be performed, such as manual testing, automated testing,
+T
+performance testing, and accessibility testing.
+The environments in which testing will be conducted, such as different browsers, operating
+systems, and device types.
+The criteria that will be used to evaluate the success of the testing, such as the number of
+defects found, the time taken to complete the testing, and user satisfaction ratings.
+The roles and responsibilities of the team members involved in the testing, such as the test
+lead, testers, and developers.\n--- Page 3 ---\nThe schedule and milestones for the testing, including the start and end dates, and the
+planned testing activities.
+The tools and equipment that will be used for testing, such as testing software, hardware,
+and documentation templates.
+y
+m
+e
+d
+a
+c
+A
+g
+n
+i
+t
+s
+e
+T
+e
+h
+T\n--- Page 4 ---\nInclusions
+Introduction: This section would provide an overview of the test plan, including its purpose,
+scope, and goals.
+Test Objectives: This section would outline the specific objectives of the testing, such as
+identifying and fixing defects, improving the user experience, or achieving a certain level of
+performance.
+y
+- Login
+m
+- Dashboard Page
+- Create new Campaign
+- Editor
+e
+- Run on a Website
+d
+a
+c
+A
+g
+n
+i
+t
+s
+e
+T
+e
+h
+T\n--- Page 5 ---\ny
+m
+e
+d
+a
+c
+A
+g
+n
+i
+t
+s
+e
+T
+e
+h
+T
+Test Environments
+The operating systems and versions that will be used for testing, such as Windows 10,
+macOS, or Linux.
+The browsers and versions that will be tested, such as Google Chrome, Mozilla Firefox, or
+Microsoft Edge.
+The device types and screen sizes that will be used for testing, such as desktop computers,
+laptops, tablets, and smartphones.\n--- Page 6 ---\nThe network connectivity and bandwidth that will be available for testing, such as Wi-Fi,
+cellular, or wired connections.
+The hardware and software requirements for running the test cases, such as a specific
+processor, memory, or storage capacity.
+The security protocols and authentication methods that will be used to access the test
+environment, such as passwords, tokens, or certificates.
+y
+The access permissions and roles of the team members who will be using the test
+m
+environment, such as testers, developers, or stakeholders.
+e
+Name Env url d
+QA qa.vwo.coam
+Pre Prod preprod.vwo.com
+c
+UAT Auat.vwo.com
+Prod app.vwo.com
+g
+n
+Windows 10 – Chrome, Firefox and Edge
+i
+• Mac OS – Safari Browser
+t
+• Android Mobile OS – Chrosme
+• iPhone Mobile OS - Safari
+e
+T
+Defect Reporting Procedure
+e
+The critheria for identifying a defect, such as deviation from the requirements, user
+experience issues, or technical errors.
+T
+The steps for reporting a defect, such as using a designated template, providing detailed
+reproduction steps, and attaching screenshots or logs.
+The process for triaging and prioritizing defects, such as assigning severity and priority
+levels, and assigning them to the appropriate team members for investigation and resolution.
+The tools and systems that will be used for tracking and managing defects, such as a
+defect tracking software or a project management tool.
+The roles and responsibilities of the team members involved in the defect reporting
+process, such as testers, developers, and the test lead.\n--- Page 7 ---\nThe communication channels and frequencies for updating stakeholders on the progress
+and status of defects.
+The metrics and metrics that will be used to measure the effectiveness of the defect
+reporting process, such as the number of defects found, the time taken to resolve them, and
+the percentage of defects that were successfully fixed.
+Defect Process POC
+y
+New Frontend Devesh
+m
+Backend Sonal
+e
+Dev Ops Prajeeth
+d
+a
+Tools - JIRA
+c
+A
+Test Strategy
+g
+The first step is to create test scenarios and test cases for the various features in
+Scope. n
+i
+While developing test cases, we'll use a number of test design techniques.
+t
+o Equivalence Class Partitison
+o Boundary Value Analysis
+e
+o Decision Table Testing
+o State TransitionT Testing
+o Use Case Testing
+e
+h
+We also use our expertise in creating Test Cases by applying the below:
+o Error Guessing
+T
+o Exploratory Testing
+• We prioritize the Test Cases
+Step 2: Our testing procedure when we receive a request for testing:
+• First, we'll conduct smoke testing to see if the various and
+important functionalities of the application are working.
+• We reject the build, if the Smoke Testing fails and will wait for the stable
+build before performing in depth testing of the application functionalities.\n--- Page 8 ---\n• Once we receive a stable build, which passes Smoke Testing, we perform
+in depth testing using the Test Cases created.
+• Multiple Test Resources will be testing the same Application on Multiple
+Supported Environments simultaneously.
+We then report the bugs in bug tracking tool and send dev. management y
+the defect found on that day in a status end of the day email.
+m
+As part of the Testing, we will perform the below types of Testing: e
+o Smoke Testing and Sanity Testing
+d
+o Regression Testing and Retesting
+o Usability Testing, Functionality & UI Testing
+a
+• We repeat Test Cycles until we get the quality product.
+c
+A
+Step3 – We will follow the below best practices to make our Testing better:
+g
+• Context Driven Testing – We will nbe performing Testing as per the context
+of the given application.
+i
+t
+s
+• Shift Left Testing – We will start testing from the beginning stages of the
+development itself, insetead of waiting for the stable build.
+T
+• Exploratorey Testing – Using our expertise we will perform Exploratory
+Testing, apart from the normal execution of the Test cases.
+h
+T
+• End to End Flow Testing – We will test the end-to-end scenario which
+involve multiple functionalities to simulate the end user flows.
+Test Schedule
+Following is the test schedule planned for the project –
+Task Time Duration\n--- Page 9 ---\nTask Dates
+▪ Creating Test Plan
+▪ Test Case Creation
+▪ Test Case Execution
+▪ Summary Reports Submission Date
+y
+m
+2 Sprints to Test the Application
+e
+Test Deliverables.
+d
+a
+c
+A
+g
+n
+i
+t
+s
+e
+T
+e
+h
+T
+Entry and Exit Criteria
+The below are the entry and exit criteria for every phase of Software Testing Life
+Cycle:
+Requirement Analysis
+Entry Criteria:
+• Once the testing team receives the Requirements Documents or details
+about the Project\n--- Page 10 ---\nExit Criteria:
+• List of Requirements are explored and understood by the Testing team
+• Doubts are cleared
+y
+m
+Test Execution
+e
+Entry Criteria:
+d
+• Test Scenarios and Test Cases Documents are signed-off by the Client
+• Application is ready for Testing a
+Exit Criteria: c
+• Test Case Reports, Defect Reports are readyA
+g
+n
+Test Closure
+i
+Entry Criteria: t
+s
+• Test Case Reports, Defect Reports are ready
+e
+Exit Criteria: T
+• Test Summary Reports
+e
+h
+T
+Tools
+The following are the list of Tools we will be using in this Project:
+• JIRA Bug Tracking Tool
+• Mind map Tool
+• Snipping Screenshot Tool
+• Word and Excel documents
+Risks and Mitigations
+The following are the list of risks possible and the ways to mitigate them:
+Risk: Non-Availability of a Resource
+Mitigation: Backup Resource Planning\n--- Page 11 ---\nRisk: Build URL is not working
+Mitigation: Resources will work on other tasks
+Risk: Less time for Testing
+Mitigation: Ramp up the resources based on the Client needs dynamically
+Approvals
+Team will send different types of documents for Client Approval like below:
+y
+• Test Plan
+• Test Scenarios m
+• Test Cases
+• Reports
+e
+Testing will only continue to the next steps once these approvals are done
+d
+a
+c
+A
+g
+n
+i
+t
+s
+e
+T
+e
+h
+T
